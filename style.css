@@ -19,6 +19,29 @@ body {
 .bottom-border {
   border-bottom: 1px groove #eee;
 }
+
+.sidebar-link {
+  transition: all .4s;
+}
+
+.sidebar-link:hover {
+  background: #444;
+  border-radius: 5px;
+}
+
+.current {
+  background: #f44330;
+  border-radius: 7px;
+  box-shadow: 2px 5px 10px #111;
+  transition: all .3s;
+}
+
+.current:hover {
+  background: #f66436;
+  border-radius: 7px;
+  box-shadow: 2px 5px 20px #111;
+  transform: translateY(-1px);
+}
 /* navbar end */
 
 
