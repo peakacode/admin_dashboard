@@ -511,7 +511,7 @@
     <section>
       <div class="container-fluid">
         <div class="col-xl-10 col-lg-10 col-md-8 ml-auto">
-          <div class="row">
+          <div class="row align-items-center mb-5">
             <div class="col-xl-7 mb-4">
               <h4 class="text-muted mb-4">Recent Customer Activities</h4>
               <div id="accordion">
@@ -596,7 +596,56 @@
               </div>
             </div>
             <div class="col-xl-5">
+              <div class="card round">
+                <div class="card-body">
+                  <h5 class="text-muted text-center mb-4">Quick Status</h5>
+                  <ul class="list-inline text-center py-3">
+                    <li class="list-inline-item mr-4">
+                      <a href="">
+                        <i class="fas fa-pencil-alt text-success"></i>
+                        <span class="h6 text-muted">Photo</span>
+                      </a>
+                    </li>
+                    <li class="list-inline-item mr-4">
+                      <a href="">
+                        <i class="fas fa-camera text-info"></i>
+                        <span class="h6 text-muted">Status</span>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="">
+                        <i class="fas fa-map-market-alt text-primary"></i>
+                        <span class="h6 text-muted">Check-in</span>
+                      </a>
+                    </li>
+                  </ul>
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control py-2 mb-3" placeholder="What's your status...">
+                      <button type="button" class="btn btn-block text-uppercase font-weight-bold text-light bg-info py-2 mb-5">Submit Post</button>
+                    </div>
+                  </form>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="card bg-light">
+                        <li class="fa fa-calendar-alt fa-8x text-warning d-block m-auto py-3"></li>
+                        <div class="card-body">
+                          <p class="card-text text-center font-weight-bold text-uppercase">Mon, May 26</p>
+                        </div>
+                      </div>
+                    </div>
 
+                    <div class="col-6">
+                       <div class="card bg-light">
+                        <li class="fa fa-clock fa-8x text-danger d-block m-auto py-3"></li>
+                        <div class="card-body">
+                          <p class="card-text text-center font-weight-bold text-uppercase">3:50 am</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
